@@ -43,9 +43,22 @@ Select Administrators → check Full Control → Apply → OK
 
 
 **Enable Virtualization on Windows**
-     
+ 1. 
+ 
      https://support.microsoft.com/en-gb/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1
+2.
 
+
+        dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+4.
+
+
+        dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+6.
+
+
+        dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /norestart
+Then restart your PC.
 
 **Docker Commands**
 
