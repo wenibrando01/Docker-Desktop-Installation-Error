@@ -43,9 +43,11 @@ Select Administrators → check Full Control → Apply → OK
 
 
 **Enable Virtualization on Windows**
+
  1. 
  
-     https://support.microsoft.com/en-gb/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1
+  
+          https://support.microsoft.com/en-gb/windows/enable-virtualization-on-windows-c5578302-6e43-4b4b-a449-8ced115f58e1
 2.
 
 
