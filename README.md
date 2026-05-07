@@ -62,6 +62,12 @@ Select Administrators → check Full Control → Apply → OK
         dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V-All /all /norestart
 Then restart your PC.
 
+Then test:
+
+     wsl -l -v
+
+and open Docker Desktop again, check if it fixes the issue.
+
 **Docker Commands**
 
 1. Check Docker version
